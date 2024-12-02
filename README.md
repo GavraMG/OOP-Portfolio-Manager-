@@ -1,7 +1,7 @@
 # 💼 ePortfolio Management System - Object-Oriented Programming Project
 
 <p align="center">
-  <img width="700" alt="ePortfolio Management Screenshot" src="[https://example.com/eportfolio-management-screenshot.png](https://github.com/user-attachments/assets/337ef807-0421-4d43-accd-4c0569eb08d8)">
+  <img width="700" alt="ePortfolio Management Screenshot" src="https://github.com/user-attachments/assets/f43767bc-74af-49e2-95cb-2a518dcfe1b0">
 </p>
 
 ## 📖 Table of Contents
