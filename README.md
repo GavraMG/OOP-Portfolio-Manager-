@@ -10,6 +10,7 @@
   - [Features](#-features)
   - [Tech Used](#-tech-used)
   - [How to Run](#-how-to-run)
+  - [How It Works](#-how-it-works)
 - [Contact](#-contact)
 
 <br/>
@@ -27,6 +28,7 @@ Built as part of my Year 2 OOP coursework, this project incorporates advanced fe
 - **Update Prices:** Ability to update investment prices, ensuring the portfolio reflects current market conditions.
 - **Search Investments:** Fast and intuitive search using HashMaps for keyword and criteria-based filtering.
 - **Total Gain Calculation:** Calculate and display the total gain from all investments, giving users a clear view of their financial performance.
+- **Save and Load Portfolio:** Users can save their portfolio to a text file upon exiting and reload it when starting the application again, ensuring persistence.
 - **User-Friendly GUI:** Built using Java Swing, the system provides a clean, intuitive interface to manage investments.
 
 <br/>
@@ -38,6 +40,7 @@ This program uses:
 - **Java:** The core programming language used to build the portfolio management logic.
 - **Java Swing:** Used to create the Graphical User Interface for user interaction.
 - **Object-Oriented Principles:** Features like inheritance and polymorphism are utilized to create the `Investment` superclass and its subclasses (`Stock` and `MutualFund`).
+- **File I/O:** For saving and loading the user's portfolio data between sessions.
 - **HashMap:** Used for efficient searching of investments.
 
 <br/>
@@ -71,6 +74,22 @@ This program uses:
       javadoc -d a3doc ePortfolio
       ```
     - The generated Javadoc will be saved in the `a3doc` folder.
+
+<br/>
+
+## 📝 How It Works
+
+The ePortfolio Management System is controlled through a command menu, with the following commands available to navigate and operate within the program:
+
+- **Buy Investment:** Allows the user to add a new investment (either stock or mutual fund) to their portfolio. This can be accessed by selecting the "Buy Investment" option from the Commands menu.
+- **Sell Investment:** Users can sell a portion or the entirety of an existing investment by selecting the "Sell Investment" option.
+- **Update Prices:** This feature lets users update the current prices of all investments. By choosing the "Update Investment" option, users can navigate through their portfolio and modify the investment prices.
+- **Get Total Gain:** Selecting "Get Total Gain" will calculate and display the total gain from all investments in the portfolio.
+- **Search Investments:** Users can search for specific investments by selecting the "Search Investments" option. The search can be performed using criteria such as symbol, keywords, and price range.
+- **Save Investments:** The program will prompt users to save their portfolio before exiting to ensure that all changes are preserved.
+- **Quit:** Users can exit the program by selecting the "Exit" option in the menu. This ensures that all data is saved to the specified file before closing.
+
+These commands can be selected from the GUI menu bar, making navigation straightforward and intuitive. The program prompts for any additional information as needed to complete the actions effectively.
 
 <br/>
 
