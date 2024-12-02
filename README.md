@@ -18,7 +18,7 @@
 ## About My Project
 The ePortfolio Management System is a Java-based project that allows users to manage their investment portfolio. Designed as a hands-on Object-Oriented Programming (OOP) project, it enables users to buy, sell, update, and track investments like stocks and mutual funds, as well as calculate total gains. The system provides a comprehensive way for users to interact with their financial portfolio through a Graphical User Interface (GUI).
 
-Built as part of my Year 2 OOP coursework, this project incorporates advanced features such as HashMap indexing for faster searches and file I/O to save and reload portfolios, showcasing my proficiency with Java and GUI development.
+Built as part of my Year 2 OOP coursework, this project incorporates advanced features such as HashMap indexing for faster searches, showcasing my proficiency with Java and GUI development.
 
 <br/>
 
